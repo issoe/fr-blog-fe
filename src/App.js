@@ -7,8 +7,8 @@ import TestAPI from './Pages/TestAPI';
 function App() {
   return (
     <div className="App">
-      <Homepage />
-      {/* <TestAPI /> */}
+      {/* <Homepage /> */}
+      <TestAPI />
     </div>
   );
 }
