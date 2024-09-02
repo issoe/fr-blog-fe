@@ -2,13 +2,13 @@
 
 import React from 'react';
 import { Camera } from 'lucide-react';
-import Header from '../Components/Header';
+// import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import '../Pages/Homepage.css'; 
 const HomePage = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-800 text-white">
-      <Header />
+      {/* <Header /> */}
       <main className="flex-grow container mx-auto px-4 py-8 mt-16">
         <section className="mb-12">
           <h1 className="text-4xl font-bold mb-4">Introduction</h1>
