@@ -16,7 +16,7 @@ jobs:
       - name: Build Project
         run: npm run build
       - name: List build directory contents
-        run: ls -la ./dist
+        run: ls -la ./build
       - name: Upload artifact to enable deployment
         uses: actions/upload-artifact@v4
         with:
